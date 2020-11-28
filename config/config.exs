@@ -25,6 +25,8 @@ use Mix.Config
 #
 #     import_config "#{Mix.env}.exs"
 config :ethereumex,
+  # url: "http://localhost:8545"
+
   url: "http://localhost:8545",
   client_type: :ipc,
   ipc_path: "/workspace/hswick/exw3/docker/openethereum/jsonrpc.ipc"
